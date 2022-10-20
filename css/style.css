@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+h1 {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  h1+div{text-align: center;}
+
+   .baseball{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+  }
+
+    img {
+    display: block; 
+    width: 200px;
+    height: 250px;
+    position: relative;
+  }
+
+  .shadow{
+      display: none;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      /* background-color: #000;
+      opacity: 0.75; */
+
+      background-color: rgba(0,0,0,0.75);
+  }
+
+  .lightbox{
+      position: absolute;
+      left: 960px;
+      top: 600px;
+      width: 800px;
+      height: 800px;
+      margin: -200px 0 0 -200px;
+      text-align: center;
+  }
